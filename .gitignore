@@ -1,6 +1,5 @@
 .DS_Store
 .sass-cache
-**/*.map
 **/*.swp
 node_modules
-public/dist/*
+public/dist/

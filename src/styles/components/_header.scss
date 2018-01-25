@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-evenly;
+  position:relative;
+  padding-bottom:1rem;
+
+  &__logo {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+  }
+
+  &__nav--top
+  {
+    margin:0;
+    padding:0;
+  }
+
+  &__nav-container
+  {
+    list-style-type: none;
+  }
+
+  &__nav-link,
+  &__nav-link--last
+  {
+    display:inline-block;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+
+    a:hover
+    {
+      color:$orange;
+    }
+  }
+
+  &__nav-link:after
+  {
+    color:$off-white;
+    margin:0 2rem;
+    content:"|";
+  }
+
+  &__facebook { }
+  &__search { }
+  &__donate { }
+
+}
+
+

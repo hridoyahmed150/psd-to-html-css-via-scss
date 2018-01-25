@@ -1,0 +1,48 @@
+.footer {
+  background-color: $dark-blue;
+  color: $white;
+  padding: 1.5rem;
+  display: flex;
+  justify-content:space-evenly;
+
+  &__nav
+  {
+    font-size: 1.4rem;
+    width:25%;
+    border-right: 1px solid $light-blue;
+  }
+
+  &__link-container
+  {
+    margin:0 0 0 0.5rem;
+    padding:0;
+    list-style-type: none;
+  }
+
+  &__nav-link
+  {
+      margin:0.8rem 0;
+  }
+
+  &__nav-link:before
+  {
+    content:". ";
+  }
+
+  &__title
+  {
+    font-size:1.6rem;
+    color:$off-white;
+    margin:1rem;
+    padding:0.5rem;
+    background-color:$light-blue;
+    width:80%;
+  }
+
+  &__sponsors
+  {
+    margin-top:0.4rem;
+    padding:0.5rem;
+    width:15%;
+  }
+}
